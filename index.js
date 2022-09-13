@@ -4165,7 +4165,7 @@ var createScene = function () {
     if (fencesArr[activeFence].type == "fiona180180") {
       for (let i = 0; i < fencesArr.length; i++) {
         if (activeFence != i && fencesArr[i].status != "disposedFence") {
-          changeFenceFunction(90180, "fiona180180", i);
+          changeFenceFunction(180, "fiona180180", i);
         }
       }
     }
